@@ -2858,6 +2858,17 @@ article#tag .all-tags ul li span {
 article#tag .all-tags ul li span:before {
   content: 'x';
 }
+.article-entry >p:first-child::first-letter {
+  float: left;
+  margin-top: 14px;
+  margin-right: 6px;
+  color: #555;
+  font-size: 42px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: 400;
+mobile()
+}
 .article {
   color: var(--color-p);
   word-wrap: break-word;
